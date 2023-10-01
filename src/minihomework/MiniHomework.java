@@ -24,7 +24,7 @@ public class MiniHomework {
         
         System.out.println("Welcome to NetBeans!");
         
-        name = userInput.getUserText("Give me your full name?");
+        name = userInput.getUserText("What is your name?");
         age = userInput.getUserInt("How old are you?", 0);
         
         System.out.println("Your name is: " + name);
