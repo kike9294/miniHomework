@@ -21,11 +21,13 @@ public class MiniHomework {
         
         String name;
         int age;
+        int nPets;
         
         System.out.println("Welcome to NetBeans!");
         
         name = userInput.getUserText("What is your name?");
         age = userInput.getUserInt("How old are you?", 0);
+        nPets = userInput.getUserInt("How many pets do you have?");
         
         System.out.println("Your name is: " + name);
         System.out.println("You are " + age + " years old.");
