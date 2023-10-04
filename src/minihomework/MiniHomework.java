@@ -32,7 +32,7 @@ public class MiniHomework {
         System.out.println("Your name is: " + name);
         System.out.println("You are " + age + " years old.");
         System.out.println("damn you old");
-        
+        System.out.println("prueba");
         
     }
     
